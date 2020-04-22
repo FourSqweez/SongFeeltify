@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myTextPrimaryColor">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Camera"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="@color/white"
+        android:id="@+id/tbInsertPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+    <Button
+        android:layout_below="@+id/tbInsertPhoto"
+        android:id="@+id/btnToggleCamera"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/dmax_spots_spot"
+        android:drawableTop="@drawable/ic_swap_horiz_black_24dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+    <FrameLayout
+        android:layout_below="@+id/tbInsertPhoto"
+        android:id="@+id/activity_detect_object"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.wonderkiln.camerakit.CameraView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|top"
+            app:ckFacing="front"/>
+
+        <Button
+            android:id="@+id/btnDetectObject"
+            android:layout_width="71dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/dmax_spots_spot"
+            android:drawableBottom="@drawable/ic_radio_button_checked_black_24dp"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>

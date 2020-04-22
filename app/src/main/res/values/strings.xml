@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SongFeels</string>
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_insert_photo">Insert Photo</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_add">Add</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Select Genre</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="snackbar_spotify_authenticate_msg_error">"You are required to authenticate with your Spotify account in order to use this app."</string>
+    <string name="snackbar_spotify_authenticate_msg_action">"Do It"</string>
+
+</resources>

@@ -1,0 +1,175 @@
+{
+  "project_info": {
+    "project_number": "979284603838",
+    "firebase_url": "https://firestore-example-d0fff.firebaseio.com",
+    "project_id": "firestore-example-d0fff",
+    "storage_bucket": "firestore-example-d0fff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979284603838:android:a06c6ec0d1ba74eac4bfef",
+        "android_client_info": {
+          "package_name": "com.example.firestoreexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979284603838-468mm4rvimugqhkonpdvkrskj557p61h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firestoreexample",
+            "certificate_hash": "84e920688399caf5622de195ba791f79a749fa81"
+          }
+        },
+        {
+          "client_id": "979284603838-0kc9ra25gslfn4rhisqidliiq5m26l0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firestoreexample",
+            "certificate_hash": "35cbbb49309cacf0ae4e9a9517b4107a7c672b41"
+          }
+        },
+        {
+          "client_id": "979284603838-necrdakg7giaj1dq1h16tmnn6mrgjcrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firestoreexample",
+            "certificate_hash": "ed2bddd45ef2d844d5d44f3713e50c3a4c9cbe3c"
+          }
+        },
+        {
+          "client_id": "979284603838-58uqqb6knmsrr47392r1iq1cpufa4ra2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firestoreexample",
+            "certificate_hash": "d034d89c94a6f29ab1bfbcd156302ea3ebf38b55"
+          }
+        },
+        {
+          "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYo7MaQsb8FD3q4bpAxmlX-05S8j_03A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979284603838:android:0e243a8f0fb1c4cdc4bfef",
+        "android_client_info": {
+          "package_name": "com.example.getsongfromfirestoretosearchfromyoutubeapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979284603838-fnu8vihtkkj16cad54gfs3ojvn8oapv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getsongfromfirestoretosearchfromyoutubeapi",
+            "certificate_hash": "d034d89c94a6f29ab1bfbcd156302ea3ebf38b55"
+          }
+        },
+        {
+          "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYo7MaQsb8FD3q4bpAxmlX-05S8j_03A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979284603838:android:591b9947254997f7c4bfef",
+        "android_client_info": {
+          "package_name": "com.example.getsongfromyoutubeapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979284603838-jmachcsvtbolokc65uk691ej25rfeasr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getsongfromyoutubeapi",
+            "certificate_hash": "d034d89c94a6f29ab1bfbcd156302ea3ebf38b55"
+          }
+        },
+        {
+          "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYo7MaQsb8FD3q4bpAxmlX-05S8j_03A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979284603838:android:f7f58058eae73e3cc4bfef",
+        "android_client_info": {
+          "package_name": "com.songfeelsfinal.songfeels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYo7MaQsb8FD3q4bpAxmlX-05S8j_03A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979284603838-ibejqec96aednu3cfu2709mvrupobbao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

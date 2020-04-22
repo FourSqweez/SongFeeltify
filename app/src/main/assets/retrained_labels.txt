@@ -1,0 +1,7 @@
+neutral
+sleepy
+happy
+annoy
+sad
+surprise
+angry

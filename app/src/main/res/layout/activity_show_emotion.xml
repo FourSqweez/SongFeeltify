@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:measureAllChildren="true"
+    tools:context=".ui.showEmotion.ShowEmotion"
+    android:background="@color/myTextPrimaryColor">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <androidx.appcompat.widget.Toolbar
+                app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+                app:title="Show Emotion"
+                app:titleTextColor="@color/white"
+                android:id="@+id/tbShowEmotion"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+            <LinearLayout
+                android:layout_below="@+id/tbShowEmotion"
+                android:id="@+id/linearLayout3"
+                android:layout_width="241dp"
+                android:layout_height="226dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="83dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imgPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@+id/linearLayout3"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="59dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/tvYourObject"
+                        android:layout_width="155dp"
+                        android:layout_height="49dp"
+                        android:gravity="center"
+                        android:text="Enter Amount :"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:textColor="@color/white"
+                        android:id="@+id/etNumberAlertDialog"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="10"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:text="10" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/tvYourColor"
+                        android:layout_width="155dp"
+                        android:layout_height="49dp"
+                        android:gravity="center"
+                        android:text="Your Color : "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/tvShowColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loMusic"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/tvYourMusicGenre"
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Your Music Genre : "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/tvShowMusicGenre"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="music genre" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnGoToList"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/button_save_playlist_spotify"
+                android:text="Get Songs"/>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RV"
+                    android:layout_below="@+id/btnGoToList"/>
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
